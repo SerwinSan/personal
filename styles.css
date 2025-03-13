@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+.links a:hover {
+    color: #f4b400;
+}
+
+/* Home Section */
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Konten di tengah */
+    padding: 50px 0;
+    gap: 50px; /* Jarak antara gambar dan konten */
+}
+
+.home-img img {
+    max-width: 250px; /* Ukuran gambar */
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Membuat gambar bulat */
+    object-fit: cover;
+}
+
+.home-content {
+    max-width: 600px;
+    text-align: left; /* Teks di-align ke kiri */
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.home-content h1 span {
+    color: #f4b400;
+}
+
+.typing-text {
+    font-size: 1.5em;
+    color: #666;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    color: #333;
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+
+.social-icons a:hover {
+    color: #f4b400;
+}
+
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills {
+    padding: 50px 0;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+/* Services Section */
+.experience {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.experience h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experience p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.exp-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.exp-img img {
+    max-width: 500px; /* Ukuran gambar */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.exp-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.exp-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
