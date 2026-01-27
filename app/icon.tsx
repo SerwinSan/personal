@@ -1,0 +1,41 @@
+import { ImageResponse } from 'next/og';
+
+// Route segment config
+export const runtime = 'edge';
+
+// Image metadata
+export const size = {
+  width: 32,
+  height: 32,
+};
+export const contentType = 'image/png';
+
+// Image generation
+export default function Icon() {
+  return new ImageResponse(
+    (
+      // ImageResponse JSX element
+      <div
+        style={{
+          fontSize: 24,
+          background: '#D00000', // P5 Red
+          width: '100%',
+          height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'white',
+          fontWeight: 900,
+          border: '2px solid black',
+          transform: 'rotate(-10deg) scale(1.2)', // Miring biar gaya
+        }}
+      >
+        H
+      </div>
+    ),
+    // ImageResponse options
+    {
+      ...size,
+    }
+  );
+}
