@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import ProjectPalace from "../components/ProjectPalace";
 import SocialStats from "../components/SocialStats";
 import ContactFooter from "../components/ContactFooter";
-import Profile from "../components/Profile"; // 👈 Import ini
+import Profile from "../components/Profile";
 
 export default function Home() {
   return (
@@ -27,7 +27,6 @@ export default function Home() {
         <ProjectPalace />
       </div>
 
-      {/* Gunakan Component ContactFooter disini */}
       <ContactFooter />
 
     </main>

@@ -38,12 +38,12 @@ export default function Maintenance() {
              <FaExclamationTriangle className="text-p5-red"/> ACCESS DENIED
            </h2>
            <p className="font-body text-lg font-bold">
-             "Area ini sedang dalam pengembangan kognitif. Silakan kembali lagi nanti setelah kami mencuri hatinya!"
+             Area ini sedang dalam pengembangan kognitif. Silakan kembali lagi nanti setelah kami mencuri hatinya!
            </p>
         </div>
 
         {/* Tombol Kembali */}
-        <Link href="/" className="inline-block bg-p5-yellow text-p5-black font-heading text-2xl px-8 py-3 uppercase transform hover:scale-110 hover:rotate-2 transition-transform shadow-[5px_5px_0px_rgba(255,255,255,0.5)]">
+        <Link href="/#projects" className="inline-block bg-p5-yellow text-p5-black font-heading text-2xl px-8 py-3 uppercase transform hover:scale-110 hover:rotate-2 transition-transform shadow-[5px_5px_0px_rgba(255,255,255,0.5)]">
            <FaArrowLeft className="inline mb-1 mr-2"/> Escape to Safety
         </Link>
 

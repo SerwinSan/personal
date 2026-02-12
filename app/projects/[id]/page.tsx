@@ -102,7 +102,6 @@ export default async function ProjectDetail({ params }: { params: Promise<{ id: 
             </div>
 
         </div>
-{/* === BAGIAN BARU: GALERI (VISUAL EVIDENCE) === */}
         {/* Hanya muncul jika array gallery ada isinya */}
         {project.gallery && project.gallery.length > 0 && (
             <div className="w-full animate-in fade-in slide-in-from-bottom-10 duration-1000">

@@ -6,20 +6,20 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Kustomisasi Scrollbar agar terlihat seperti P5 (Opsional tapi keren) */
+/* Kustomisasi Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #111; /* Warna Hitam P5 */
+  background: #111; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #D00000; /* Warna Merah P5 */
+  background: #D00000;
   border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #FFE600; /* Warna Kuning saat di-hover */
+  background: #FFE600; 
 }

@@ -55,12 +55,12 @@ export default function ContactFooter() {
                         Take Your Heart
                     </h2>
                     <p className="font-body text-xl font-bold italic bg-p5-black text-p5-white inline-block px-4 py-1 transform skew-x-[-10deg] mb-8">
-                        "I will steal your project ideas & make them real!"
+                        I will steal your project ideas & make them real!
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center gap-8 mt-4">
                         
-                        {/* TOMBOL EMAIL UTAMA */}
+                        {/* EMAIL */}
                         <motion.a 
                             href="mailto:wlkr3422@gmail.com"
                             whileHover={{ scale: 1.05, x: -5 }}
@@ -95,7 +95,6 @@ export default function ContactFooter() {
                     </div>
                 </div>
             </motion.div>
-
         </div>
     </footer>
   );

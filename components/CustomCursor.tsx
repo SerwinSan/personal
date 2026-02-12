@@ -25,7 +25,7 @@ export default function CustomCursor() {
     };
 
     window.addEventListener("mousemove", mouseMove);
-    window.addEventListener("mouseover", mouseOver); // Tambah listener hover
+    window.addEventListener("mouseover", mouseOver);
 
     return () => {
       window.removeEventListener("mousemove", mouseMove);

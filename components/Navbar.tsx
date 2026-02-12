@@ -30,7 +30,7 @@ export default function Navbar() {
       }
     } else {
       // Jika BUKAN di Home (misal di halaman detail), pindah ke Home dulu
-      // Kita pakai format /#id supaya pas sampai sana langsung scroll
+      // Pakai format /#id supaya pas sampai sana langsung scroll
       router.push(`/#${id}`);
     }
   };
@@ -50,7 +50,6 @@ export default function Navbar() {
             transition={{ delay: 1, type: 'spring' }}
             className="group relative flex items-center justify-end w-64"
           >
-            {/* ... (Isi tombol desktop SAMA PERSIS seperti sebelumnya) ... */}
             <div className={`
               absolute right-0 top-0 h-12 w-full 
               transform -skew-x-[20deg] origin-bottom-right transition-all duration-300

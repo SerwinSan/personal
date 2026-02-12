@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hamid | The Phantom Developer",
     description: "Take Your Heart.",
-    url: "https://porto-phantom.vercel.app", // Nanti diganti link asli pas deploy
+    url: "https://hamid-msz.vercel.app", 
     siteName: "Hamid Portf",
     locale: "id_ID",
     type: "website",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: "Web & Mobile Developer from Bekasi. Check out my arsenal.",
   },
   icons: {
-    icon: "/icon", // Ini akan mengarah ke file icon.tsx yang kita buat nanti
+    icon: "/icon", 
   },
 };
 
@@ -52,9 +52,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* Kita gabungkan variabel font di body agar bisa dibaca Tailwind */}
+      {/* Gabungkan variabel font di body agar bisa dibaca Tailwind */}
       <body className={`${anton.variable} ${roboto.variable} bg-p5-gray text-p5-white overflow-x-hidden antialiased selection:bg-p5-red selection:text-p5-white`}>
-        {/* Background Texture Global (Pola titik-titik halus) */}
+        {/* Background Texture Global */}
         <div className="fixed inset-0 z-[-1] opacity-10 pointer-events-none" 
              style={{
                backgroundImage: 'radial-gradient(#555 1px, transparent 1px)', 

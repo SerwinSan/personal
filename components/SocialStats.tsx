@@ -1,11 +1,10 @@
 'use client';
 import { motion } from 'framer-motion';
 
-// Ganti data ini sebebasmu, bisa tambah sebanyak mungkin!
 const skillCategories = [
   {
     title: "LANGUAGES",
-    skills: ["PHP", "JavaScript", "Dart", "Python", "SQL", "HTML & CSS"]
+    skills: ["PHP", "Javascript", "Dart", "Python", "SQL"]
   },
   {
     title: "FRAMEWORKS",

@@ -25,7 +25,7 @@ export default function Profile() {
                 <div className="absolute inset-0 border-4 border-p5-red transform -rotate-6 bg-p5-black z-0"></div>
                 <div className="absolute inset-0 border-4 border-p5-white transform rotate-3 z-10"></div>
                 
-                {/* Placeholder Foto (Ganti src ini dengan foto aslimu nanti) */}
+                {/* Placeholder Foto */}
                 {/* Tips: Gunakan foto background transparan atau hitam putih supaya makin P5 */}
                 <div className="absolute inset-0 overflow-hidden transform rotate-3 z-10 m-2 bg-gray-800 flex items-center justify-center">
                     {/* Jika belum ada foto, pakai Icon dulu */}
@@ -113,9 +113,7 @@ export default function Profile() {
 
                 </div>
             </div>
-
         </motion.div>
-
       </div>
     </section>
   );

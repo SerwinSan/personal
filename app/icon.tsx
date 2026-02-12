@@ -18,7 +18,7 @@ export default function Icon() {
       <div
         style={{
           fontSize: 24,
-          background: '#D00000', // P5 Red
+          background: '#D00000',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -27,15 +27,11 @@ export default function Icon() {
           color: 'white',
           fontWeight: 900,
           border: '2px solid black',
-          transform: 'rotate(-10deg) scale(1.2)', // Miring biar gaya
+          transform: 'rotate(-10deg) scale(1.2)',
         }}
       >
         H
       </div>
     ),
-    // ImageResponse options
-    {
-      ...size,
-    }
   );
 }
